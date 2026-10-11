@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-config 
+data:
+  message: "This will be eventually deleted, it was set in order to test pruning."
