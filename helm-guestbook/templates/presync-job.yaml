@@ -18,4 +18,5 @@ spec:
             - |
               set -e
               echo 'Running a database migration...'
+              sleep 10
               echo 'Done!'
