@@ -13,9 +13,9 @@ spec:
       containers:
         - name: migration
           image: busybox
-            command: ["sh", "-c"]
-            args:
-              - |
-                set -e
-                echo 'Running a database migration...'
-                echo 'Done!'
+          command: ["sh", "-c"]
+          args:
+            - |
+              set -e
+              echo 'Running a database migration...'
+              echo 'Done!'
