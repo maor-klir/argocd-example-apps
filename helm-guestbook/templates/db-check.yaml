@@ -16,7 +16,7 @@ spec:
           args:
             - |
               set -e
-              echo 'Running a database check to $DB_HOST...'
+              echo "Running a database check to $DB_HOST..."
               sleep 5 
               echo 'Connected!'
           env:
