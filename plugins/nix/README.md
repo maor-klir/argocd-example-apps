@@ -5,7 +5,7 @@ management and system configuration.
 
 This setup is based on the [NixCon 2023 talk](https://www.youtube.com/watch?v=SEA1Qm8K4gY).
 
-## Set up the argo-cd installation for nix support
+## Set up the Argo CD installation for nix support
 
 This setup uses the stock `nixos/nix:latest` image without any modifications.
 That requires some changes in runtime, as nix cannot run as user 999 our of the
